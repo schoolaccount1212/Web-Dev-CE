@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(0, 225, 176);
+    font-family: "Comic Relief", sans-serif
+}
+
+/* header stuff here */
+header{
+    background-color: sienna;
+    padding: 1rem 10px;
+}
+header span{
+    color: gold;
+    font-size: 1.6rem;
+    font-weight:700;
+}
+
+
+
+/*navigation stuff here*/
+nav{
+    background-color: blueviolet;
+}
+
+nav ul {
+    margin :0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+nav li.current a {
+    background-color: darkgreen;
+    color: gold;
+}
+
+nav li a:hover {
+    color: tomato;
+}
+
+/*main stuff here*/
+
+main{
+    padding: 1rem 10px;
+}
+
+main h1{
+    color: coral;
+}
+
+main h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: .2rem;
+}
+
+main p{
+    margin-top: 0;
+    color: black;
+}
+
+main ol{
+    padding: .5rem 30px;
+
+}
+main ul{
+    list-style-type: circle;
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong{
+    font-weight: 700;
+    color:blueviolet;
+}
+main em{
+    font-weight: 300;
+    color:coral;
+}
+main address{
+   font-style: normal;
+    background-color: sienna;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 7px solid darkgreen;
+    color: gold;
+    width: 200px;
+}
+main a{
+    color:palevioletred;
+    background-color:greenyellow;
+}
+main a:hover {
+    color:coral;
+}
+/*footer stuff here*/
+footer{
+    background-color: aqua;    
+    text-align:center;
+    font-size: .8rem;
+    padding: 1rem 0;
+    letter-spacing: 2px;
+}
+footer p{
+    margin: 0;
+}

@@ -1,0 +1,21 @@
+body{
+    font-family: "Comic Relief", sans-serif
+}
+
+body h1{
+color: blue;
+}
+body h2{
+color: aquamarine;
+}
+body p{
+    background-color: coral;
+}
+body nav{
+    background-color: coral;
+    color: cyan;
+}
+
+body figure{
+    float: left;
+}

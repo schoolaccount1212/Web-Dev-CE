@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next meal delivered by drone.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="delivery.css">
+    
+    <meta charset="UTF-8">
+    <title>Drone Delivery Services LLC.</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Drone Delivery </span>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">About Us</a></li>
+            <li class="active"><a href="delivery">Request a Delivery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Request a Delivery</h1>
+        
+        <form method="get" class="myForm" action="thanks.html">
+            
+            
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+                <label>Email Address*<input type="email" name="electronicmail" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Method</legend>
+                    <label><input type="radio" name="method" value="droneflight">Drone Delivery (4hrs)</label>
+                    <label><input type="radio" name="method" value="bikebikecycle">Bikecycle Delivery (3hrs)</label>
+                    <label><input type="radio" name="method" value="vancar">Van Delivery (2hrs)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="radio" name="method2" value="porch">Front Porch</label>
+                <label><input type="radio" name="method2" value="po">PO box</label>
+                <label><input type="radio" name="method2" value="driveway">Driveway</label>
+                <label><input type="radio" name="method2" value="garage">Garage</label>
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="morning"> Between 7:00am and 11:00am</option>
+                
+
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Purchasing Options</legend>
+                <label><input type="checkbox" name="smalldrone" value="chosen">Small Drone (4000usd)</label>
+                <label><input type="checkbox" name="charger" value="chosen">Battery Charger</label>
+                <label><input type="checkbox" name="battery" value="chosen">Week Supply of Batteries</label>
+
+
+            </fieldset>
+
+
+
+
+
+                <label><textarea name="comments"> </textarea> Comments</label>
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+
+
+    
+
+
+
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;202X &bull; Drone Delivery Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>

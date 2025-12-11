@@ -109,7 +109,7 @@ main a {
     display: block;
 }
 
-.myForm [type=text], .myForm [type=tel], .myForm select, .mForm textarea, , 
+.myForm [type=text], .myForm [type=tel], .myForm select, .mForm textarea, 
 .myForm [type=email]  
 {
     border: solid 1px #888;
